@@ -1,0 +1,53 @@
+body {
+  background-color: white;
+}
+#countLabel {
+  font-size: 70px;
+  position: absolute;
+  left: 460px;
+  top: 100px;
+  font-family: sans-serif;
+}
+#buttonsContainer {
+  text-align: center;
+  margin-top: 200px;
+}
+.buttons {
+  padding: 15px 30px;
+  color: white;
+  background-color: #8f8fdb;
+  border: solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+.buttons:hover {
+  background-color: #5252ff;
+}
+@media only screen and (max-width: 800px) {
+    body {
+    background-color: white;
+  }
+  #countLabel {
+  font-size: 70px;
+  position: absolute;
+  left: 160px;
+  top: 100px;
+  font-family: sans-serif;
+}
+#buttonsContainer {
+  text-align: center;
+  margin-top: 200px;
+}
+.buttons {
+  padding: 10px 20px;
+  color: white;
+  background-color: #8f8fdb;
+  border: solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+.buttons:hover {
+  background-color: #5252ff;
+}
